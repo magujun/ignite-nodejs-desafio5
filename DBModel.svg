@@ -1,8 +1,8 @@
 <svg width="600" height="400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <foreignObject x="10" y="10" width="580" height="335">
    <body xmlns="http://www.w3.org/1999/xhtml">
-    <div style="align:center;margin:10px>
-        <iframe style="width:560px;height:315px" src='https://dbdiagram.io/embed/6063437decb54e10c33dfa7f' frameborder="0"></iframe>
+    <div align="center" margin="10px">
+        <iframe width="560px" height="315px" src='https://dbdiagram.io/embed/6063437decb54e10c33dfa7f' frameborder="0"></iframe>
     </div>
    </body>
 </foreignObject>
