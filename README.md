@@ -179,5 +179,6 @@ Para que esse teste passe, você deve satisfazer o código de acordo com o que �
 
 ## [Desafio 6](https://www.notion.so/Desafio-02-Modelagem-do-banco-de-dados-0ce9c10f9e114be0a9ee9359d68639ff) 📑
 
-[Modelagem do banco](https://dbdiagram.io/d/6063437decb54e10c33dfa7f) 
+[Modelagem do banco](https://dbdiagram.io/d/6063437decb54e10c33dfa7f)
+![](./DBModel.svg)
 
