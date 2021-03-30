@@ -30,6 +30,7 @@ Um **usuário** pode ter vários jogos e um mesmo **jogo** pode estar associado 
   Esse método deve receber o **Id** de um usuário e retornar os dados do usuário encontrado juntamente com os dados de todos os **games** que esse usuário possui.
 
 Exemplo de retorno:
+
 ```jsx
 {
 	id: '81482ac4-29bd-497f-b71a-8ae3b20eca9b',
@@ -53,7 +54,8 @@ Exemplo de retorno:
 		}
 	]
 }
-```
+\```
+
 </details>
 [✓] Método **findAllUsersOrderedByFirstName**
 <details>
@@ -80,6 +82,7 @@ Essa consulta deve ser realizada utilizando **raw query** e você pode buscar pe
 Esse método deve receber parte do título de um jogo ou o título inteiro e retornar um ou mais jogos que derem match com a consulta. 
 
 Se o método for chamado com o argumento `"or S"` e existir algum jogo com essa sequência de letras no título, o retorno deve ser feito, como por exemplo o seguinte retorno:
+
 ```jsx
 [
 	{
@@ -95,10 +98,12 @@ Se o método for chamado com o argumento `"or S"` e existir algum jogo com essa 
 		updated_at: '2021-03-19 19:35:09.877037',
 	}
 ]
-```
+\```
+
 A consulta também deve ser feita de forma case insensitive, ignorando caixa alta onde no banco não existe. Para exemplo, considerando a busca exemplificada acima, o retorno deve ser o mesmo caso o parâmetro passado seja uma string `"nEEd"`. 
 
-Você pode buscar pelo uso do **ILIKE** no Postgres para resolver esse problema. Lembre-se que aqui deve ser usado **query builder** para realizar a consulta.
+Você pode buscar pelo uso do **ILIKE** no Postgres para resolver esse problema.
+Lembre-se que aqui deve ser usado **query builder** para realizar a consulta.
 </details>
 [✓] Método **countAllGames**
 <details>
@@ -109,6 +114,7 @@ Esse método deve retornar uma contagem do total de games existentes no banco. D
 Esse método deve receber o `Id` de um game e retornar uma lista de todos os usuários que possuem o game do `Id` informado. 
 
 Exemplo de retorno:
+
 ```jsx
 [
 	{
@@ -128,7 +134,8 @@ Exemplo de retorno:
 		updated_at: '2021-03-19 19:35:09.877037'
 	}
 ]
-```
+\```
+
 </details>
 ## Especificação dos testes
 
