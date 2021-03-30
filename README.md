@@ -181,5 +181,5 @@ Para que esse teste passe, você deve satisfazer o código de acordo com o que �
 
 [Modelagem do banco](https://dbdiagram.io/d/6063437decb54e10c33dfa7f)
 
-![](DBModel.svg)
+![](./DBModel.svg)
 
