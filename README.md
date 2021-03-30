@@ -54,15 +54,17 @@ Exemplo de retorno:
 		}
 	]
 }
-\```
+```
 
 </details>
+
 [✓] Método **findAllUsersOrderedByFirstName**
 <details>
 Esse método deve retornar a listagem de usuários cadastrados em ordem alfabética (**ASC**).
 
 Lembre-se que aqui deve ser usado **raw query** para a consulta.
 </details>
+
 [✓] Método **findUserByFullName**
 <details>
 Esse método deve receber `first_name` e `last_name` e retornar um usuário que possua os mesmos `first_name` e `last_name`.
@@ -75,6 +77,7 @@ O método deve retornar o usuário mesmo que os argumentos passados sejam `daNiL
 
 Essa consulta deve ser realizada utilizando **raw query** e você pode buscar pelo uso do **LOWER** no Postgres para resolver esse problema.
 </details>
+
 ### GamesRepository
 
 [✓] Método **findByTitleContaining**
@@ -98,17 +101,19 @@ Se o método for chamado com o argumento `"or S"` e existir algum jogo com essa 
 		updated_at: '2021-03-19 19:35:09.877037',
 	}
 ]
-\```
+```
 
 A consulta também deve ser feita de forma case insensitive, ignorando caixa alta onde no banco não existe. Para exemplo, considerando a busca exemplificada acima, o retorno deve ser o mesmo caso o parâmetro passado seja uma string `"nEEd"`. 
 
 Você pode buscar pelo uso do **ILIKE** no Postgres para resolver esse problema.
 Lembre-se que aqui deve ser usado **query builder** para realizar a consulta.
 </details>
+
 [✓] Método **countAllGames**
 <details>
 Esse método deve retornar uma contagem do total de games existentes no banco. Deve ser usada **raw query** para essa consulta.
 </details>
+
 [✓] Método **findUsersByGameId**
 <details>
 Esse método deve receber o `Id` de um game e retornar uma lista de todos os usuários que possuem o game do `Id` informado. 
@@ -134,9 +139,10 @@ Exemplo de retorno:
 		updated_at: '2021-03-19 19:35:09.877037'
 	}
 ]
-\```
+```
 
 </details>
+
 ## Especificação dos testes
 
 Para esse desafio, temos os seguintes testes:
@@ -145,22 +151,27 @@ Para esse desafio, temos os seguintes testes:
 <details>
     Para que esse teste passe, você deve satisfazer o código de acordo com o que é [descrito aqui](https://www.notion.so/Desafio-01-Database-Queries-8d97dae581d5446e97555c43d301ee45).
 </details>
+
 [✓] **[UsersRepository] should be able to list users ordered by first name**
 <details>
     Para que esse teste passe, você deve satisfazer o código de acordo com o que é [descrito aqui](https://www.notion.so/Desafio-01-Database-Queries-8d97dae581d5446e97555c43d301ee45).
 </details>
+
 [✓] **[UsersRepository] should be able to find user by full name**
 <details>
     Para que esse teste passe, você deve satisfazer o código de acordo com o que é [descrito aqui.](https://www.notion.so/Desafio-01-Database-Queries-8d97dae581d5446e97555c43d301ee45)
 </details>
+
 [✓] **[GamesRepository] should be able find a game by entire or partial given title**
 <details>
     Para que esse teste passe, você deve satisfazer o código de acordo com o que é [descrito aqui](https://www.notion.so/Desafio-01-Database-Queries-8d97dae581d5446e97555c43d301ee45)
 </details>
+
 [✓] **[GamesRepository] should be able to get the total count of games**
 <details>
     Para que esse teste passe, você deve satisfazer o código de acordo com o que é [descrito aqui](https://www.notion.so/Desafio-01-Database-Queries-8d97dae581d5446e97555c43d301ee45).
 </details>
+
 [✓] **[GamesRepository] should be able to list users who have given game id**
 <details>
 Para que esse teste passe, você deve satisfazer o código de acordo com o que é [descrito aqui](https://www.notion.so/Desafio-01-Database-Queries-8d97dae581d5446e97555c43d301ee45).
