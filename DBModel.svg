@@ -2,7 +2,7 @@
 <foreignObject x="10" y="10" width="580" height="335">
    <body xmlns="http://www.w3.org/1999/xhtml">
     <div align="center" margin="10px">
-        <iframe width="560px" height="315px" src='https://dbdiagram.io/embed/6063437decb54e10c33dfa7f' frameborder="0"></iframe>
+        <iframe width="560" height="315" src='https://dbdiagram.io/embed/6063437decb54e10c33dfa7f' frameborder="0"></iframe>
     </div>
    </body>
 </foreignObject>
