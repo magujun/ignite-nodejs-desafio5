@@ -176,3 +176,10 @@ Para esse desafio, temos os seguintes testes:
 <details>
 Para que esse teste passe, você deve satisfazer o código de acordo com o que é [descrito aqui](https://www.notion.so/Desafio-01-Database-Queries-8d97dae581d5446e97555c43d301ee45).
 </details>
+
+## [Desafio 6](https://dbdiagram.io/d/6063437decb54e10c33dfa7f) 📑
+
+Modelagem do banco
+
+<iframe width="560" height="315" src='https://dbdiagram.io/embed/6063437decb54e10c33dfa7f'> </iframe>
+
