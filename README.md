@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/magujun/ignite-nodejs-desafio5-6.svg?branch=main)](https://travis-ci.com/magujun/ignite-nodejs-desafio5-6)
+[![Build Status](https://travis-ci.com/magujun/ignite-nodejs-desafio5.svg?branch=main)](https://travis-ci.com/magujun/ignite-nodejs-desafio5)
 
 # 💻 Rocketseat's Ignite - Trilha Node.js
 
