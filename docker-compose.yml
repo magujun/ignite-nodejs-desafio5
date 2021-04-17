@@ -1,9 +1,9 @@
 version: "3.3"
 
 services:
-  database-desafio5:
+  database:
     image: postgres
-    container_name: database-desafio5
+    container_name: database-desafios
     restart: always
     ports:
       - 5432:5432
