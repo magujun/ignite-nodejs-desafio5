@@ -181,8 +181,7 @@ Para que esse teste passe, você deve satisfazer o código de acordo com o que �
 
 [Modelagem do banco](https://dbdiagram.io/d/6063437decb54e10c33dfa7f)
 
-<img width="602" alt="image" src="https://user-images.githubusercontent.com/75567460/113026136-0972d600-9189-11eb-9885-e3e22fa1ef73.png">
-
-<img width="966" alt="diagrama_desafio6" src="https://user-images.githubusercontent.com/75567460/115113837-845f2d80-9f8c-11eb-882a-a114a25f5d22.png">![](./DBModel.svg)
+<img width="966" alt="diagrama_desafio6" src="https://user-images.githubusercontent.com/75567460/115113837-845f2d80-9f8c-11eb-882a-a114a25f5d22.png">
+![](./DBModel.svg)
 
 
