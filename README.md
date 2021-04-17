@@ -4,7 +4,7 @@
 
 ## [Desafio 5](https://www.notion.so/Desafio-01-Database-Queries-8d97dae581d5446e97555c43d301ee45) 🚀
 
-# 💻 Sobre o desafio
+## 💻 Sobre o desafio
 
 Nesse desafio, você realizará consultas no banco de dados com o TypeORM de três maneiras:
 
