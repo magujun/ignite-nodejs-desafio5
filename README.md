@@ -4,7 +4,7 @@
 
 ## [Desafio 5](https://www.notion.so/Desafio-01-Database-Queries-8d97dae581d5446e97555c43d301ee45) 🚀
 
-## 💻 Sobre o desafio
+## Sobre o desafio
 
 Nesse desafio, você realizará consultas no banco de dados com o TypeORM de três maneiras:
 
@@ -181,7 +181,6 @@ Para que esse teste passe, você deve satisfazer o código de acordo com o que �
 
 [Modelagem do banco](https://dbdiagram.io/d/6063437decb54e10c33dfa7f)
 
-<img width="966" alt="diagrama_desafio6" src="https://user-images.githubusercontent.com/75567460/115113837-845f2d80-9f8c-11eb-882a-a114a25f5d22.png">
-![](./DBModel.svg)
+<img width="966" alt="diagrama_desafio6" src="https://user-images.githubusercontent.com/75567460/115113837-845f2d80-9f8c-11eb-882a-a114a25f5d22.png">![](./DBModel.svg)
 
 
